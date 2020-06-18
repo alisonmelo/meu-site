@@ -1,26 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Alison Melo</title>
 </head>
-<body>
-<header>
-    <img src="assets/ssd.png" alt="Foto de perfil Alison Melo">
 
+<body>
+    <header>
+        <img src="assets/ssd.png" alt="Foto de perfil Alison Melo">
+
+        <nav>
+
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+
+        <Section id="portfolio">
+            <h1>portfolio</h1>
+            <article>
+                <h2>titulo top</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos blanditiis nemo nesciunt quidem
+                    molestias asperiores, suscipit eaque distinctio magni? Reiciendis blanditiis ea porro cum facilis.
+                    Ea nam dicta consequatur!</p>
+            </article>
+
+            <picture>
+                <img src="assets/ssd.png" alt="Foto de alison Melo">
+                <p>Dev. full-stack e Designer</p>
+            </picture>
+        </Section>
+        <!--Portfolio-->
+
+
+        <section>
+            <div>
+                <h2 id="projetos">Projetos</h2>
+            </div>
+            <div>
+                <ul class="slider">
+                    <li>
+                        <input type="radio" id="slide1" name="slide" checked>
+                        <label for="slide1"></label>
+                        <img src="assets/banner-site.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide2" name="slide">
+                        <label for="slide2"></label>
+                        <img src="assets/site2.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide3" name="slide">
+                        <label for="slide3"></label>
+                        <img src="assets/sites-1.png" />
+                    </li>
+                </ul>
+            </div>
+<article>
+<h2>Sobre os projetos</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, ullam molestias magnam soluta quis temporibus cumque similique? Vero recusandae qui labore quidem et dolore dolores sint. Et quasi debitis beatae.</p>
+</article>
+
+
+        </section>
+        <!--Projetos/ e um slider que não deu muito certo hahaha-->
+<section>
+    <h2 id="contato">Contato</h2>
+    <div>
     <nav>
         <ul>
-            <li><a href="portfolio"></a>Portfolio</li>
-            <li><a href="projetos"></a>Projetos</li>
-            <li><a href="contato"></a></li>
+            <li>email:</li>
+            <li>Telefone:</li>
+            <li>Linkedin:</li>
+            <li>github:</li>
+            <li>instagram:</li>
         </ul>
-
     </nav>
-</header>
+    </div>
+    <img src="assets/site2.jpg" alt="imagem ilustrativas">
+</section>
 
-    <Section>
 
-    </Section>
+    </main>
+
+    <footer>
+        <p>&copy;2020 | <a url="https://www.instagram.com/_di_melo_/"></a>Alison Melo</p>
+    </footer>
 </body>
+
 </html>
